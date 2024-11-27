@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT Movies (Movie*)>
+        <!ELEMENT Movie (Title, Price)>
+        <!ATTLIST Movie year CDATA #REQUIRED>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>
